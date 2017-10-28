@@ -1,8 +1,5 @@
 # Real FizzBuzz 
 
-This is the programming test that is set by Equal Experts to screen
-candidates who are developers. 
-
 ## Technical description: 
  
 ### Step 1: 
@@ -55,38 +52,3 @@ lucky: 2
 integer: 10
  
 (Integer is 10 because there were 10 numbers that were not altered in any way). 
- 
-## Guidelines for offline code tests: 
- 
-You should not find this test to be particularly difficult. It is
-designed to be a straightforward coding exercise, and it should take
-you no more than 90 minutes. 
-
- 
-Things Equal Experts are looking for: 
- 
-One of our key technical values is: 
- 
-We value straightforward software that is easy to reason about,
-refactor and test over the tersest possible code. 
-
-While in general we agree that less lines of code is good, i.e. easier
-to maintain and understand, we have seen examples where developers go
-too far in the other direction. Creating extremely terse programmes
-that have a very low line count, but are incredibly difficult to
-decipher. We want less code, but not at the cost of clarity.
-
- 
-Note that simple does not mean shoddy, poor, or low quality. Our
-developers often find that “simple” takes more effort, planning, and
-skill than “complicated” does. 
-
- 
-Self-explanatory code: The solution you produce must speak for
-itself. Multiple paragraphs explaining the solution are a sign that it
-isn’t straightforward enough to understand purely by reading code, and
-are not appropriate. 
-
- 
-Test Coverage: The solution should be developed “test-first”, and
-should have excellent unit test coverage. 
