@@ -1,0 +1,32 @@
+plugins {
+    id 'java'
+    id 'maven'
+}
+
+apply plugin: 'idea'
+
+repositories {
+    mavenCentral()
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+project.ext {
+
+    junitVersion   = "4.12"
+    mockitoVersion = "2.8.47"
+    assertjVersion = '3.1.0'
+}
+
+dependencies {
+
+    testCompile "org.mockito:mockito-core:${mockitoVersion}"
+    testCompile "org.assertj:assertj-core:${assertjVersion}"
+    testCompile "junit:junit:${junitVersion}"
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '3.5'
+}
+
